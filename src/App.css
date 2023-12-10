@@ -36,3 +36,78 @@
     transform: rotate(360deg);
   }
 }
+
+.black-nav{
+  background: black;
+  width: 100%;
+  display: flex;
+  color: white;
+  padding: 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.task{
+  margin-top: 30px;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* DailyTask.css */
+
+.daily-task {
+  /* DailyTask 전체에 적용되는 스타일 */
+  margin-bottom: 20px;
+}
+
+.daily-task h3 {
+  /* 날짜 헤더에 적용되는 스타일 */
+  font-size: 1.5em;
+}
+
+.daily-task ul {
+  /* 할일 리스트에 적용되는 스타일 */
+  list-style-type: none;
+  padding: 0;
+}
+
+.daily-task li {
+  /* 각 할일 항목에 적용되는 스타일 */
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.daily-task label {
+  /* 할일 레이블에 적용되는 스타일 */
+  margin-right: 10px; /* 할일 레이블과 체크박스 사이 간격 조절 */
+  font-size: 1.2em; /* 할일 레이블 텍스트 크기 조절 */
+  width:100%;
+}
+
+.daily-task input[type="checkbox"] {
+  /* 체크박스에 적용되는 스타일 */
+  margin-left: auto; /* 체크박스를 항상 오른쪽 끝으로 이동 */
+  transform: scale(1.5); /* 체크박스 크기 확대 */
+}
+
+/* App.css */
+
+.daily-group {
+  margin-bottom: 20px;
+  border: 1px solid #bbb;
+  padding: 10px;
+}
+
+.daily-group h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.search-bar input {
+  width: 400px; /* 원하는 넓이로 설정 */
+  padding: 10px; /* 내용과 상하좌우 여백 설정 (옵션) */
+  font-size: 16px; /* 글꼴 크기 설정 (옵션) */
+  /* 필요한 다른 스타일 속성들을 추가할 수 있습니다. */
+}
